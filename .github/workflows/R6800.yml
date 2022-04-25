@@ -1,5 +1,4 @@
-name: NETGEAR-BZV
-
+name: R6800
 on: 
   release:
     types: [published]
@@ -105,5 +104,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: NETGEAR-BZV
+        name: R6800
         path: /opt/images
